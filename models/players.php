@@ -1,11 +1,11 @@
 <?php
 require('utils/db.php');
 
-function getTeams()
+function getPlayers()
 {
   $db = dbConnect();
 
-  $stmt = $db->prepare('SELECT * FROM teams');
+  $stmt = $db->prepare('SELECT * FROM players');
 
   $stmt->execute();
 
