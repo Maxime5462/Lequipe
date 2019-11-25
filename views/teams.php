@@ -1,14 +1,15 @@
 <?php $title = "Teams"; ?>
 <?php ob_start(); ?>
 
+<h1 class="mt-3"style="text-transform: uppercase;text-align:center;color:blue;"><img style="text-align:center;"src="public/l1.png" alt="L1">équipes de Ligue 1</h1>
 
 <div class="container">
     <div class="row">
         <?php foreach ($listTeam as $team) { ?>
-            <div class="card mt-3 col-3" style="width: 18rem;display:inline;">
+            <div class="card mt-3 col-3" style="width: 18rem;">
                 <img class="card-img-top" src="<?php echo $team['logo']; ?>" alt="Card image cap">
                 <div class="card-body">
-                    <p class="card-title ">Nom :<?php echo $team['name']; ?></p>
+                    <p class="card-title "style="text-align:center;"><?php echo $team['name']; ?></p>
                     <p class="card-text ">
                         <p>Nom raccourci :<?php echo $team['short_name']; ?></p>
                         <p>Fondé le :<?php echo $team['fundation_date']; ?></p>
