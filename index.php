@@ -10,4 +10,9 @@ if ($route === 'players') {
     require('controllers/players.php');
     listPlayer();
 }
+if ($route === 'team') {
+    require('controllers/team.php');
+    $id = $_GET['id'];
+    showTeam($id);
+}
 ?>
