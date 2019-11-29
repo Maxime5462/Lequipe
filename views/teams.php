@@ -22,6 +22,7 @@
                         <p>Site web :<?php echo $team['website']; ?></p>
                         <p>Lien :<?php echo $team['link']; ?></p>
                     </p>
+                    
                     <a href="<?php echo $team['website']; ?>" class="btn btn-primary">Site web</a>
                 </div>
             </div>

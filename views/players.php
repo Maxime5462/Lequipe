@@ -1,4 +1,4 @@
-<?php $title = "Teams"; ?>
+<?php $title = "Players"; ?>
 <?php ob_start(); ?>
 
 <div class="container">

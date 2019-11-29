@@ -15,4 +15,9 @@ if ($route === 'team') {
     $id = $_GET['id'];
     showTeam($id);
 }
+if ($route === 'matchs') {
+    require('controllers/matchs.php');
+    $id = $_GET['id'];
+    listMatch($id);
+}
 ?>
