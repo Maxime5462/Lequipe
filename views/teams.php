@@ -22,8 +22,8 @@
                         <p>Site web :<?php echo $team['website']; ?></p>
                         <p>Lien :<?php echo $team['link']; ?></p>
                     </p>
-                    
-                    <a href="<?php echo $team['website']; ?>" class="btn btn-primary">Site web</a>
+
+                    <a href="?route=matchs&id=<?php echo $team['id']; ?>" class="btn btn-primary">Calendrier</a>
                 </div>
             </div>
         <?php } ?>
