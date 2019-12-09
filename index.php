@@ -20,4 +20,8 @@ if ($route === 'matchs') {
     $id = $_GET['id'];
     listMatch($id);
 }
+if ($route === 'classement') {
+    require('controllers/classement.php');
+    classement();
+}
 ?>
